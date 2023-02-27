@@ -1,4 +1,5 @@
 public class BinarySearch {
+    //This has a time complexity of O(log(n))
     public static int binary_search(int[] arr, int key){
         int start = 0;
         int end = arr.length-1;
